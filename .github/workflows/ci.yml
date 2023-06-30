@@ -1,0 +1,11 @@
+on:
+  pull_request:
+
+env:
+  ARCHIVE_FORMAT: .tar.br
+
+jobs:
+  dummy-ci:
+    runs-on: [ubuntu-20.04]
+    steps:
+      - run: echo "success"
