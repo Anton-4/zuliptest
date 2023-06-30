@@ -8,4 +8,4 @@ jobs:
   dummy-ci:
     runs-on: [ubuntu-20.04]
     steps:
-      - run: echo "success"
+      - run: echo "success!!"
